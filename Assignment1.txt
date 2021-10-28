@@ -1,0 +1,57 @@
+Q1.Difference between length and length()
+---> length:
+     - length is a final variable applicable for arrays. With the help of the length variable, we can obtain the size of the array. 
+     -The length variable is applicable to an array but not for string objects .
+      
+    class ArrayLength{
+   public static void main(String[] args){
+   int[] arr={10,20,30,40,50};
+   System.out.println(arr.length);
+   }
+   }
+
+
+Output:5
+
+
+   length():
+   - length() method is a final variable which is applicable for string objects. 
+     -The length() method returns the number of characters present in the string. 
+   - length() method is applicable for a string objects.
+   - We can access the length of string element present at the particular index with the help of index value.
+
+class LengthMethod{
+public static void main(String[] args){
+String [] str={"hii","hello","good","morning"};
+System.out.println(str.length);
+System.out.println(str[1].length());
+}
+}
+
+Output:
+4
+5
+
+
+Q2.for each loop
+--->
+   -  It starts with the keyword for like a normal for-loop.
+    - Instead of declaring and initializing a loop counter variable, you declare a variable that is the same type of the array, followed by a colon, which is then followed by the array name.
+    -It’s commonly used to iterate over an array or a Collections class
+Syntax:
+      for(type var:array)
+      {
+       statements;
+       }
+for each loop is not applicablewhen you want to modify the aaray.
+for each only iterates forward over the array in single staeps.
+
+
+
+Q3.Hybrid Inheritance
+ ---->
+  Hybrid inheritance in java ia a combination of inheritances.
+  In this type of inheritance more than one kind of inheritances is obsereved.
+
+
+ 
