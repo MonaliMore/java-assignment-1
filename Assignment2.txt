@@ -1,0 +1,50 @@
+
+
+
+Q.2 Uses of final keyword in java
+  1.final variable
+ if you make any variable as final you cannot change the value of final variable it will be constant.
+
+package com.technoelevate.javabasics.assignments;
+
+public class FinalVariable {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		final int a=20;
+		final int b=30;
+		while(a<b) {
+			System.out.println("hii");
+		}
+		System.out.println("hello");// compile time error
+
+	}
+
+}
+
+
+
+Q. native keyword in java
+
+--->The native keyword is applied to a method to indicate that the method is implemented in native code using JNI (Java Native Interface).
+
+ native is a modifier applicable only for methods and we can't apply it anywhere else.
+
+Q.str.concat() v/s str+=
+
+str.concat():
+The Java String concat() method concatenates one string to the end of another string.
+ This method returns a string with the value of the string passed into the method, appended to the end of the string.
+
+str+=:
+The += operator can also be used to concatenate the String expression on its right to the String variable or property on its left,
+ and assign the result to the variable or property on its left
+
+
+
+
+
+
+
+
+ 
